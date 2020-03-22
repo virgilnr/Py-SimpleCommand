@@ -1,7 +1,6 @@
 ##DebtPayApp
 debt = 789000
 money = input('how much money do you have?')
-
 if int(money) < debt:
   print('Sorry sir, looks like your money is not enough to completely pay off the debt. Do you still want to proceed your payment?, then th debt left will be:' , debt-int(money))
 elif int(money)==debt:
