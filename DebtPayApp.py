@@ -7,3 +7,4 @@ elif int(money)==debt:
   print('Your money is precisely enough to pay off all the debt. Proceeding to continue your payment...')
 else:
   print('Your money is more than enough to pay off the debt completely, here is the change:' , int(money)-debt)
+##virgilnr
